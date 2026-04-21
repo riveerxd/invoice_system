@@ -1,0 +1,10 @@
+{
+  "client_address": "Adresa",
+  "client_postal_code": "PSČ",
+  "client_city": "Město",
+  "client_county": "Kraj/Stát",
+  "client_country": "Země",
+  "client_email": "E-mail klienta",
+  "client_ico": "IČO",
+  "client_dic": "DIČ"
+}

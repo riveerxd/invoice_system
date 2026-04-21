@@ -13,7 +13,7 @@ i18next
 
 const initialized = i18next.init({
   fallbackLng: 'en',
-  whitelist: ['en', 'de', 'fr', 'et', 'fa', 'bn', 'es', 'pt_br', 'it', 'id', 'kr'],
+  whitelist: ['en', 'de', 'fr', 'et', 'fa', 'bn', 'es', 'pt_br', 'it', 'id', 'kr', 'cs'],
   backend: {
     loadPath: `${window.location.origin}/locales/{{lng}}/{{ns}}.json`,
   },

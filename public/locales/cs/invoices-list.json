@@ -1,0 +1,7 @@
+{
+  "invoice_number": "Č.",
+  "client": "Klient",
+  "issued_at": "Vystaveno dne",
+  "total": "Celkem",
+  "status": "Stav"
+}

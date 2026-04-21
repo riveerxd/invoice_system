@@ -1,0 +1,16 @@
+{
+  "back": "Zpět",
+  "book": "Zaúčtovat",
+  "design_and_layout": "Design a rozvržení",
+  "compact": "Kompaktní",
+  "comfortable": "Pohodlné",
+  "customize": "Přizpůsobit",
+  "download_pdf": "Stáhnout PDF",
+  "delete": "Smazat",
+  "delete_modal": {
+    "title": "Smazat fakturu",
+    "ok_title": "Smazat",
+    "cancel_title": "Zrušit"
+  },
+  "notification_deleted": "Smazáno"
+}

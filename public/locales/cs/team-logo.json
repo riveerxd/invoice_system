@@ -1,0 +1,7 @@
+{
+  "modal_title": "Vyberte logo",
+  "button_text": "Vybrat ze souborů",
+  "logo_url": "Vložit webovou URL adresu obrázku",
+  "logo_url_err": "Logo musí být menší než 512 kb.",
+  "or": "nebo"
+}

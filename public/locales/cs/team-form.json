@@ -1,0 +1,36 @@
+{
+  "title": "Vaše společnost",
+  "done": "Hotovo",
+  "updated": "Aktualizováno",
+  "loading": "Načítání",
+  "tabs": {
+    "general": "Obecné",
+    "invoicing": "Fakturace",
+    "address": "Adresa",
+    "taxes": "Daně"
+  },
+  "general": {
+    "company_name": "Název společnosti",
+    "contact_email": "E-mail",
+    "contact_phone": "Telefon",
+    "website": "Webové stránky"
+  },
+  "invoicing": {
+    "invoice_late_fee": "Poplatek z prodlení (%)",
+    "invoice_due_days": "Platební podmínky, dny",
+    "currency": "Výchozí měna"
+  },
+  "address": {
+    "company_address": "Adresa společnosti",
+    "company_postal_code": "PSČ",
+    "company_city": "Město",
+    "company_county": "Kraj/Stát",
+    "company_country": "Země"
+  },
+  "tax_modal": {
+    "title": "Přepsat daně u aktuálních řádků faktury?",
+    "ok_title": "Přepsat",
+    "cancel_title": "Zrušit",
+    "taxes_updated": "Daně aktualizovány"
+  }
+}

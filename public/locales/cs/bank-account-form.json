@@ -1,0 +1,9 @@
+{
+  "title": "Bankovní účet",
+  "bank_name": "Název banky",
+  "account_no": "Číslo bankovního účtu",
+  "loading": "Načítání",
+  "done": "Hotovo",
+  "create": "Vytvořit",
+  "notification_updated": "Aktualizováno"
+}

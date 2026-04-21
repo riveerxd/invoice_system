@@ -1,0 +1,10 @@
+{
+  "label": "Štítek",
+  "field": "Pole",
+  "delete_modal": {
+    "title": "Smazat pole",
+    "ok_title": "Smazat",
+    "cancel_title": "Zrušit"
+  },
+  "notification_delete": "Smazáno"
+}

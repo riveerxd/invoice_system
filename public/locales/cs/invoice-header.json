@@ -1,0 +1,13 @@
+{
+  "invoice_title": "Faktura ",
+  "invoice_number": "Č.",
+  "issued_at": "Vystaveno dne: ",
+  "due_at": "Splatnost:",
+  "late_fee": "Poplatek z prodlení:",
+  "add_late_fee": "Přidat poplatek z prodlení",
+  "modal_issued_at_title": "Vystaveno dne",
+  "modal_due_at_title": "Splatnost",
+  "tax_point_date": "DUZP:",
+  "modal_tax_point_date_title": "DUZP",
+  "add_tax_point_date": "Přidat DUZP"
+}

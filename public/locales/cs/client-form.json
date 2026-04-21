@@ -1,0 +1,36 @@
+{
+  "title": "Klient",
+  "delete": "Smazat",
+  "done": "Hotovo",
+  "create": "Vytvořit",
+  "loading": "Načítání",
+  "tabs": {
+    "general": "Obecné",
+    "invoicing": "Fakturace",
+    "address": "Adresa"
+  },
+  "general": {
+    "company_name": "Název společnosti",
+    "invoice_email": "E-mail"
+  },
+  "invoicing": {
+    "currency": "Měna",
+    "rate": "Hodinová sazba",
+    "has_tax": "Uplatnit daně",
+    "bank_account": "Bankovní účet"
+  },
+  "address": {
+    "company_address": "Adresa společnosti",
+    "company_postal_code": "PSČ",
+    "company_city": "Město",
+    "company_county": "Kraj/Stát",
+    "company_country": "Země"
+  },
+  "delete_modal": {
+    "title": "Smazat klienta",
+    "ok_title": "Smazat",
+    "cancel_title": "Zrušit"
+  },
+  "notification_deleted": "Smazáno",
+  "notification_updated": "Aktualizováno"
+}

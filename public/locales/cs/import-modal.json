@@ -1,0 +1,6 @@
+{
+  "title": "Importovat data",
+  "warning": "Vaše aktuální data budou smazána a přepsána importovanými daty!",
+  "button_text": "Vyberte soubor k importu",
+  "import-error": "Neplatný formát JSON"
+}

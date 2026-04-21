@@ -1,0 +1,10 @@
+{
+  "label": "Štítek",
+  "tax": "Daň",
+  "delete_modal": {
+    "title": "Smazat daň",
+    "ok_title": "Smazat",
+    "cancel_title": "Zrušit"
+  },
+  "notification_deleted": "Smazáno"
+}

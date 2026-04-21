@@ -1,0 +1,9 @@
+{
+  "statuses": {
+    "draft": "koncept",
+    "booked": "zaúčtováno",
+    "sent": "odesláno",
+    "paid": "zaplaceno",
+    "cancelled": "zrušeno"
+  }
+}
