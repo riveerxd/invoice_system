@@ -4,5 +4,7 @@
   "client_city": "읍/면/동",
   "client_county": "시/도",
   "client_country": "국가",
-  "client_email": "고객 이메일"
+  "client_email": "고객 이메일",
+  "client_ico": "사업자등록번호",
+  "client_dic": "부가세 등록번호"
 }

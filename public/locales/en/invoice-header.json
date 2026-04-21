@@ -6,5 +6,8 @@
   "late_fee": "Late fee:",
   "add_late_fee": "Add late fee",
   "modal_issued_at_title": "Issued at",
-  "modal_due_at_title": "Due at"
+  "modal_due_at_title": "Due at",
+  "tax_point_date": "Tax point date:",
+  "modal_tax_point_date_title": "Tax point date",
+  "add_tax_point_date": "Add tax point date"
 }

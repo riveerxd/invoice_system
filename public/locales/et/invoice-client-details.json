@@ -4,5 +4,7 @@
   "client_city": "Linn",
   "client_county": "Maakond",
   "client_country": "Riik",
-  "client_email": "Kliendi e-mail"
+  "client_email": "Kliendi e-mail",
+  "client_ico": "Äriregistri kood",
+  "client_dic": "KMKR nr"
 }

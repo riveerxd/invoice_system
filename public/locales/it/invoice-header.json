@@ -6,5 +6,8 @@
   "late_fee": "Interessi da pagare:",
   "add_late_fee": "Aggiungi interessi da pagare",
   "modal_issued_at_title": "Fatturato il",
-  "modal_due_at_title": "Pagare il"
+  "modal_due_at_title": "Pagare il",
+  "tax_point_date": "Data di esigibilità:",
+  "modal_tax_point_date_title": "Data di esigibilità",
+  "add_tax_point_date": "Aggiungi data esigibilità"
 }

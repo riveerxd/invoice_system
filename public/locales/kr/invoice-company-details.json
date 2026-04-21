@@ -5,5 +5,7 @@
   "city": "읍/면/동",
   "county": "시/도",
   "country": "국가",
-  "your_email": "당신의 이메일"
+  "your_email": "당신의 이메일",
+  "from_ico": "사업자등록번호",
+  "from_dic": "부가세 등록번호"
 }

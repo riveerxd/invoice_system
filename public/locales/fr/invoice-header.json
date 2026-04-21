@@ -1,10 +1,13 @@
 {
-    "invoice_title": "Facture ",
-    "invoice_number": "No.",
-    "issued_at": "Facturé le: ",
-    "due_at": "Exigible le:",
-    "late_fee": "Intérets de retard:",
-    "add_late_fee": "Ajouter intérets de retard",
-    "modal_issued_at_title": "Facturé le",
-    "modal_due_at_title": "Exigible le"
+  "invoice_title": "Facture ",
+  "invoice_number": "No.",
+  "issued_at": "Facturé le: ",
+  "due_at": "Exigible le:",
+  "late_fee": "Intérets de retard:",
+  "add_late_fee": "Ajouter intérets de retard",
+  "modal_issued_at_title": "Facturé le",
+  "modal_due_at_title": "Exigible le",
+  "tax_point_date": "Date de prestation:",
+  "modal_tax_point_date_title": "Date de prestation",
+  "add_tax_point_date": "Ajouter date de prestation"
 }

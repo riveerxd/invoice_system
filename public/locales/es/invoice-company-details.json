@@ -5,5 +5,7 @@
   "city": "Ciudad",
   "county": "Condado/Estado",
   "country": "País",
-  "your_email": "Tu correo electrónico"
+  "your_email": "Tu correo electrónico",
+  "from_ico": "NIF/CIF",
+  "from_dic": "NIF IVA"
 }

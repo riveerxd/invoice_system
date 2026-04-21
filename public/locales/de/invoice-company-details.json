@@ -5,5 +5,7 @@
   "city": "Stadt",
   "county": "Bundesland",
   "country": "Land",
-  "your_email": "Deine E-Mail"
+  "your_email": "Deine E-Mail",
+  "from_ico": "Steuernummer",
+  "from_dic": "USt-IdNr."
 }

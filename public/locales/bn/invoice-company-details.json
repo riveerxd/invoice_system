@@ -5,5 +5,7 @@
   "city": "শহর",
   "county": "বিভাগ/রাষ্ট্র",
   "country": "দেশ",
-  "your_email": "আপনার ইমেইল"
+  "your_email": "আপনার ইমেইল",
+  "from_ico": "Business ID",
+  "from_dic": "VAT ID"
 }

@@ -6,5 +6,8 @@
   "late_fee": "জরিমানা:",
   "add_late_fee": "জরিমানা যোগ করুন",
   "modal_issued_at_title": "জারি",
-  "modal_due_at_title": "পরিশোধনীয়"
+  "modal_due_at_title": "পরিশোধনীয়",
+  "tax_point_date": "Tax point date:",
+  "modal_tax_point_date_title": "Tax point date",
+  "add_tax_point_date": "Add tax point date"
 }

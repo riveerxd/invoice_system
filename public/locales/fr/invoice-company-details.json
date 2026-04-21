@@ -1,9 +1,11 @@
 {
-    "your_company_name": "Votre nom de société",
-    "address": "Adresse",
-    "postal_code": "Code postal",
-    "city": "Ville",
-    "county": "Province/Région",
-    "country": "Country",
-    "your_email": "Your email"
+  "your_company_name": "Votre nom de société",
+  "address": "Adresse",
+  "postal_code": "Code postal",
+  "city": "Ville",
+  "county": "Province/Région",
+  "country": "Country",
+  "your_email": "Your email",
+  "from_ico": "SIRET",
+  "from_dic": "N° TVA"
 }

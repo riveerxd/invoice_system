@@ -1,8 +1,10 @@
 {
-    "client_address": "Indirizzo",
-    "client_postal_code": "Codice postale",
-    "client_city": "Citta'",
-    "client_county": "Provincia",
-    "client_country": "Stato",
-    "client_email": "Posta elettronica del cliente"
+  "client_address": "Indirizzo",
+  "client_postal_code": "Codice postale",
+  "client_city": "Citta'",
+  "client_county": "Provincia",
+  "client_country": "Stato",
+  "client_email": "Posta elettronica del cliente",
+  "client_ico": "P.IVA",
+  "client_dic": "Codice fiscale"
 }

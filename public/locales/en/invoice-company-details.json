@@ -5,5 +5,7 @@
   "city": "City",
   "county": "County/State",
   "country": "Country",
-  "your_email": "Your email"
+  "your_email": "Your email",
+  "from_ico": "Business ID",
+  "from_dic": "VAT ID"
 }

@@ -4,5 +4,7 @@
   "client_city": "Stadt",
   "client_county": "Bundesland",
   "client_country": "Land",
-  "client_email": "Kunden-E-Mail"
+  "client_email": "Kunden-E-Mail",
+  "client_ico": "Steuernummer",
+  "client_dic": "USt-IdNr."
 }

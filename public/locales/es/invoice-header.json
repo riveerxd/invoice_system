@@ -6,5 +6,8 @@
   "late_fee": "Cargo por demora:",
   "add_late_fee": "Agregar cargo por demora",
   "modal_issued_at_title": "Emitido en",
-  "modal_due_at_title": "Debido a"
+  "modal_due_at_title": "Debido a",
+  "tax_point_date": "Fecha de devengo:",
+  "modal_tax_point_date_title": "Fecha de devengo",
+  "add_tax_point_date": "Agregar fecha de devengo"
 }

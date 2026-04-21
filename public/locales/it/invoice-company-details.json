@@ -1,9 +1,11 @@
 {
-    "your_company_name": "Ragione sociale",
-    "address": "Indirizzo",
-    "postal_code": "CAP",
-    "city": "Citta",
-    "county": "Provincia",
-    "country": "Stato",
-    "your_email": "Posta elettronica"
+  "your_company_name": "Ragione sociale",
+  "address": "Indirizzo",
+  "postal_code": "CAP",
+  "city": "Citta",
+  "county": "Provincia",
+  "country": "Stato",
+  "your_email": "Posta elettronica",
+  "from_ico": "P.IVA",
+  "from_dic": "Codice fiscale"
 }

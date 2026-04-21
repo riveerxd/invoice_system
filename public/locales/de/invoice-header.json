@@ -6,5 +6,8 @@
   "late_fee": "Verzugsgebühr:",
   "add_late_fee": "Verzugsgebühr hinzufügen",
   "modal_issued_at_title": "Ausgestellt am",
-  "modal_due_at_title": "Fällig am"
+  "modal_due_at_title": "Fällig am",
+  "tax_point_date": "Leistungsdatum:",
+  "modal_tax_point_date_title": "Leistungsdatum",
+  "add_tax_point_date": "Leistungsdatum hinzufügen"
 }

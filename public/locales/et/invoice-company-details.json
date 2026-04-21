@@ -5,5 +5,7 @@
   "city": "Linn",
   "county": "Maakond",
   "country": "Riik",
-  "your_email": "Sinu email"
+  "your_email": "Sinu email",
+  "from_ico": "Äriregistri kood",
+  "from_dic": "KMKR nr"
 }

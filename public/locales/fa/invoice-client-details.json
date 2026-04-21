@@ -4,5 +4,7 @@
   "client_city": "شهر",
   "client_county": "شهرستان / ایالت",
   "client_country": "کشور",
-  "client_email": "ایمیل مشتری"
+  "client_email": "ایمیل مشتری",
+  "client_ico": "شناسه ملی",
+  "client_dic": "شناسه مالیاتی"
 }

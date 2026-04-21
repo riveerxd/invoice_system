@@ -22,6 +22,22 @@
                            :inline="true"
                            field="issued_at"/>
         </BModal>
+        <span :class="{'d-print-none': !invoice.tax_point_date}">
+            <br>{{ $t('tax_point_date') }}
+            <span v-if="invoice.tax_point_date" class="editable__item" v-b-modal.modal_tax_point_date>{{ invoice.tax_point_date | date('D. MMM YYYY', 'YYYY-MM-DD') }}</span>
+            <span v-else class="editable__item text-muted d-print-none" v-b-modal.modal_tax_point_date>{{ $t('add_tax_point_date') }}</span>
+            <BModal id="modal_tax_point_date"
+                    centered
+                    :title="$t('modal_tax_point_date_title')"
+                    hide-footer
+                    size="sm"
+                    content-class="bg-base dp--24">
+                <AppDatePicker :value="invoice.tax_point_date"
+                               @change="updateProp({ tax_point_date: $event })"
+                               :inline="true"
+                               field="tax_point_date"/>
+            </BModal>
+        </span>
         <br>{{ $t('due_at') }}
         <span class="editable__item"
               v-b-modal.modal_due_at>{{ invoice.due_at | date('D. MMM YYYY', 'YYYY-MM-DD') }}</span>

@@ -1,9 +1,11 @@
 {
-    "your_company_name": "Nama Usaha Anda",
-    "address": "Alamat",
-    "postal_code": "Kode Pos",
-    "city": "Kota",
-    "county": "Provinsi/Wilayah",
-    "country": "Negara",
-    "your_email": "Email Anda"
+  "your_company_name": "Nama Usaha Anda",
+  "address": "Alamat",
+  "postal_code": "Kode Pos",
+  "city": "Kota",
+  "county": "Provinsi/Wilayah",
+  "country": "Negara",
+  "your_email": "Email Anda",
+  "from_ico": "NPWP",
+  "from_dic": "Nomor PKP"
 }

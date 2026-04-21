@@ -37,6 +37,19 @@
 
         <InvoiceTeamFields :invoice="invoice"/>
 
+        <span :class="{'d-print-none': !invoice.from_ico}" class="break-line">
+            {{ $t('from_ico') }}:
+            <AppEditable :value="invoice.from_ico"
+                         :placeholder="$t('from_ico')"
+                         @change="updateProp({ from_ico: $event })"/>
+        </span>
+        <span :class="{'d-print-none': !invoice.from_dic}" class="break-line">
+            {{ $t('from_dic') }}:
+            <AppEditable :value="invoice.from_dic"
+                         :placeholder="$t('from_dic')"
+                         @change="updateProp({ from_dic: $event })"/>
+        </span>
+
         <AppEditable :value="invoice.from_email"
                      :errors="errors"
                      field="from_email"

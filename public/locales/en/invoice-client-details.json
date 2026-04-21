@@ -4,5 +4,7 @@
   "client_city": "City",
   "client_county": "County/State",
   "client_country": "Country",
-  "client_email": "Client's email"
+  "client_email": "Client's email",
+  "client_ico": "Business ID",
+  "client_dic": "VAT ID"
 }

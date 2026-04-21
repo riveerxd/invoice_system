@@ -1,8 +1,10 @@
 {
-    "client_address": "Adresse",
-    "client_postal_code": "Code postal",
-    "client_city": "Ville",
-    "client_county": "Province/Région",
-    "client_country": "Pays",
-    "client_email": "E-mail du client"
+  "client_address": "Adresse",
+  "client_postal_code": "Code postal",
+  "client_city": "Ville",
+  "client_county": "Province/Région",
+  "client_country": "Pays",
+  "client_email": "E-mail du client",
+  "client_ico": "SIRET",
+  "client_dic": "N° TVA"
 }

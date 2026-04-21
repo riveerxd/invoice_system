@@ -4,5 +4,7 @@
   "client_city": "Cidade",
   "client_county": "Estado",
   "client_country": "País",
-  "client_email": "Email do Cliente"
+  "client_email": "Email do Cliente",
+  "client_ico": "CNPJ/CPF",
+  "client_dic": "Inscrição Estadual"
 }

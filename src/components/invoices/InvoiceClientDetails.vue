@@ -33,6 +33,19 @@
 
         <InvoiceClientFields :invoice="invoice"/>
 
+        <span :class="{'d-print-none': !invoice.client_ico}" class="break-line">
+            {{ $t('client_ico') }}:
+            <AppEditable :value="invoice.client_ico"
+                         :placeholder="$t('client_ico')"
+                         @change="updateProp({ client_ico: $event })"/>
+        </span>
+        <span :class="{'d-print-none': !invoice.client_dic}" class="break-line">
+            {{ $t('client_dic') }}:
+            <AppEditable :value="invoice.client_dic"
+                         :placeholder="$t('client_dic')"
+                         @change="updateProp({ client_dic: $event })"/>
+        </span>
+
         <AppEditable :value="invoice.client_email"
                      :errors="errors"
                      field="client_email"

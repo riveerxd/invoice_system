@@ -5,5 +5,7 @@
   "city": "Cidade",
   "county": "Estado",
   "country": "País",
-  "your_email": "Seu email"
+  "your_email": "Seu email",
+  "from_ico": "CNPJ/CPF",
+  "from_dic": "Inscrição Estadual"
 }

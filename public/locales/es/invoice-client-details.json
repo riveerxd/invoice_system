@@ -4,5 +4,7 @@
   "client_city": "Ciudad",
   "client_county": "Condado/Estado",
   "client_country": "País",
-  "client_email": "Correo electrónico del cliente"
+  "client_email": "Correo electrónico del cliente",
+  "client_ico": "NIF/CIF",
+  "client_dic": "NIF IVA"
 }

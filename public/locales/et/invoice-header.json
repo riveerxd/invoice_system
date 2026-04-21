@@ -6,5 +6,8 @@
   "late_fee": "Viivis:",
   "add_late_fee": "Lisa viivis",
   "modal_issued_at_title": "Kuupäev",
-  "modal_due_at_title": "Maksetähtaeg"
+  "modal_due_at_title": "Maksetähtaeg",
+  "tax_point_date": "Teenuse osutamise kuupäev:",
+  "modal_tax_point_date_title": "Teenuse osutamise kuupäev",
+  "add_tax_point_date": "Lisa kuupäev"
 }

@@ -6,5 +6,8 @@
   "late_fee": "Taxa de atraso:",
   "add_late_fee": "Adicionar taxa de atraso",
   "modal_issued_at_title": "Emitido em",
-  "modal_due_at_title": "Vence em"
+  "modal_due_at_title": "Vence em",
+  "tax_point_date": "Data do fato gerador:",
+  "modal_tax_point_date_title": "Data do fato gerador",
+  "add_tax_point_date": "Adicionar data do fato gerador"
 }
