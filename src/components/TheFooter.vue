@@ -2,6 +2,9 @@
     <footer class="row text-secondary px-0 mt-3 d-print-none">
         <div class="col-md-4">
             <LanguageSwitcher class="ml-n2 ml-md-0"/>
+            <button class="btn btn-sm text-secondary" @click="logout" v-if="isHttpStorage">
+                <i class="material-icons material-icons-round md-14 align-text-bottom ml-1">logout</i>
+            </button>
             <button class="btn btn-sm text-secondary" @click="toggleTheme">
                 {{ theme === 'dark' ? $t('lights-on') : $t('lights-off') }}
                 <i class="material-icons material-icons-round md-14 align-text-bottom ml-1">
@@ -60,8 +63,15 @@ export default {
     isStorageWordpress() {
       return config.storageType === 'wordpress';
     },
+    isHttpStorage() {
+      return config.storageType === 'http';
+    },
   },
   methods: {
+    logout() {
+      localStorage.removeItem('token');
+      this.$router.push({ name: 'login' });
+    },
     toggleTheme() {
       if (this.theme === 'light') {
         this.$store.commit('themes/theme', 'dark');
