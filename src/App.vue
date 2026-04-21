@@ -29,21 +29,11 @@ export default {
       window.addEventListener('load', this.jsLoaded, false);
     },
     initColorScheme() {
-      // local storage is used to override OS theme settings
-      if (localStorage.getItem('theme')) {
-        if (localStorage.getItem('theme') === 'dark') {
-          this.$store.commit('themes/theme', 'dark');
-          return document.documentElement.setAttribute('data-theme', 'dark');
-        }
-      } else if (!window.matchMedia) {
-        // matchMedia method not supported
-        return false;
-      } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        // OS theme setting detected as dark
+      if (localStorage.getItem('theme') === 'dark') {
         this.$store.commit('themes/theme', 'dark');
         return document.documentElement.setAttribute('data-theme', 'dark');
       }
-      document.documentElement.setAttribute('data-theme', this.theme || 'light');
+      document.documentElement.setAttribute('data-theme', 'light');
     },
   },
 };

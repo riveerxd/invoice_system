@@ -12,13 +12,13 @@ i18next
   .use(Backend);
 
 const initialized = i18next.init({
-  fallbackLng: 'en',
+  fallbackLng: 'cs',
   whitelist: ['en', 'de', 'fr', 'et', 'fa', 'bn', 'es', 'pt_br', 'it', 'id', 'kr', 'cs'],
   backend: {
     loadPath: `${window.location.origin}/locales/{{lng}}/{{ns}}.json`,
   },
   detection: {
-    order: ['querystring', 'path', 'localStorage', 'navigator'],
+    order: ['querystring', 'path', 'localStorage'],
     lookupQuerystring: 'lang',
     caches: ['localStorage'],
     checkWhitelist: true,
