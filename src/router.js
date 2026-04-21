@@ -8,6 +8,11 @@ Vue.use(Router);
 
 const routes = [
   {
+    path: '/login',
+    name: 'login',
+    component: () => import('@/views/Login.vue'),
+  },
+  {
     path: '/',
     name: 'dashboard',
     redirect: 'invoices',
@@ -42,7 +47,13 @@ const router = new Router({
   routes,
 });
 
+const isHttpStorage = config.storageType === 'http';
+
 router.beforeEach((to, from, next) => {
+  if (isHttpStorage && to.name !== 'login' && !localStorage.getItem('token')) {
+    return next({ name: 'login' });
+  }
+
   if (!to.query.hasOwnProperty('lang')) {
     i18n.initialized.then(() => {
       to.query.lang = i18n.i18next.language;
