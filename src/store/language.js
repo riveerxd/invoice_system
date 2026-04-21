@@ -1,4 +1,5 @@
 import app from '../main';
+import { setActiveLang } from '@/filters/date.filter';
 
 export default {
   namespaced: true,
@@ -16,6 +17,7 @@ export default {
       { name: 'Português - BR', code: 'pt_br' },
       { name: 'Indonesian', code: 'id' },
       { name: 'Korean', code: 'kr' },
+      { name: 'Czech', code: 'cs' },
     ],
   },
   mutations: {
@@ -27,10 +29,13 @@ export default {
     changeLanguage({ commit }, lang) {
       app.$i18n.i18next.changeLanguage(lang.code);
       app.$router.push({ query: { ...app.$route.query, lang: lang.code } });
+      setActiveLang(lang.code);
       commit('lang', lang);
     },
     initLanguage({ commit, state }, code) {
-      commit('lang', state.all.find(lang => lang.code === code));
+      const lang = state.all.find(l => l.code === code);
+      setActiveLang(code);
+      commit('lang', lang);
     },
   },
 };
