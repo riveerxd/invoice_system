@@ -12,12 +12,12 @@
                       field="bank_name"
                       :errors="errors"
                       class="col-sm-10"/>
-            <AppTextarea :value="bankAccount.account_no"
-                         @change="updateProp({ account_no: $event })"
-                         :label="$t('account_no')"
-                         field="account_no"
-                         :errors="errors"
-                         class="col-12"/>
+            <AppInput :value="bankAccount.account_no"
+                      @change="updateProp({ account_no: $event })"
+                      :label="$t('account_no')"
+                      field="account_no"
+                      :errors="errors"
+                      class="col-12"/>
         </div>
 
         <div v-else class="row">
@@ -43,14 +43,12 @@
 import { mapGetters } from 'vuex';
 import NotificationService from '@/services/notification.service';
 import AppInput from '@/components/form/AppInput';
-import AppTextarea from '@/components/form/AppTextarea';
 import Errors from '@/utils/errors';
 
 export default {
   i18nOptions: { namespaces: 'bank-account-form' },
   components: {
     AppInput,
-    AppTextarea,
   },
   data() {
     return {

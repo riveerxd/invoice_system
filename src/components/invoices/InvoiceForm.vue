@@ -9,10 +9,14 @@
                                        class="col-8 text-right mb-2"/>
                     </div>
                     <div class="row">
-                        <InvoiceClientDetails :invoice="invoice" :errors="errors" @update="updateProp"
-                                              class="col-6"/>
-                        <InvoiceCompanyDetails :invoice="invoice" :errors="errors" @update="updateProp"
-                                               class="col-6 text-right"/>
+                        <div class="col-6">
+                            <div class="text-uppercase text-muted small mb-1 font-weight-bold">Odběratel</div>
+                            <InvoiceClientDetails :invoice="invoice" :errors="errors" @update="updateProp"/>
+                        </div>
+                        <div class="col-6 text-right">
+                            <div class="text-uppercase text-muted small mb-1 font-weight-bold">Dodavatel</div>
+                            <InvoiceCompanyDetails :invoice="invoice" :errors="errors" @update="updateProp"/>
+                        </div>
                     </div>
                     <div class="row mt-3">
                         <AppEditable :value="invoice.notes"
@@ -33,7 +37,10 @@
                     </div>
                     <hr>
                     <div class="row pl-3 pr-3 justify-content-between">
-                        <InvoiceBankDetails :invoice="invoice" :errors="errors" @update="updateProp"/>
+                        <div>
+                            <InvoiceBankDetails :invoice="invoice" :errors="errors" @update="updateProp"/>
+                            <InvoiceQRCode :invoice="invoice"/>
+                        </div>
                         <InvoiceContactDetails :invoice="invoice" :errors="errors" @update="updateProp"
                                                class="text-right"/>
                     </div>
@@ -55,11 +62,13 @@ import AppEditable from '@/components/form/AppEditable';
 import TeamLogo from '@/components/team/TeamLogo';
 import InvoiceRowsHeader from '@/components/invoices/InvoiceRowsHeader';
 import InvoiceAddRowBtn from '@/components/invoices/InvoiceAddRowBtn';
+import InvoiceQRCode from '@/components/invoices/InvoiceQRCode';
 
 export default {
   i18nOptions: { namespaces: 'invoice-form' },
   components: {
     InvoiceAddRowBtn,
+    InvoiceQRCode,
     TeamLogo,
     InvoiceTotals,
     InvoiceHeader,

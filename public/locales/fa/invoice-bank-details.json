@@ -2,4 +2,7 @@
   "bank_name": "اضافه کردن بانک",
   "bank_account_no": "جزئیات بانک را اضافه کنید",
   "bank_account_modal_title": "حساب بانکی را انتخاب کنید"
+,
+  "variable_symbol": "شناسه پرداخت",
+  "qr_payment": "پرداخت QR"
 }

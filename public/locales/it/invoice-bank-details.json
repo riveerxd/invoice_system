@@ -2,4 +2,7 @@
     "bank_name": "Aggiungi una banca",
     "bank_account_no": "Aggiungi i dati della banca",
     "bank_account_modal_title": "Scegli un conto bancario"
+,
+  "variable_symbol": "Causale",
+  "qr_payment": "Pagamento QR"
 }

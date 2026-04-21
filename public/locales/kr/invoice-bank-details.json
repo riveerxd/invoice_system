@@ -2,4 +2,7 @@
   "bank_name": "은행 추가하기",
   "bank_account_no": "은행 세부 정보 추가하기",
   "bank_account_modal_title": "은행 계좌 선택하기"
+,
+  "variable_symbol": "결제 참조번호",
+  "qr_payment": "QR 결제"
 }

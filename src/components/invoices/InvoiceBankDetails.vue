@@ -16,6 +16,14 @@
                      field="bank_account_no"
                      :placeholder="$t('bank_account_no')"
                      class="break-line"/>
+        <div v-if="invoice.bank_account_no" class="break-line">
+            {{ $t('variable_symbol') }}
+            <AppEditable :value="invoice.variable_symbol"
+                         :errors="errors"
+                         field="variable_symbol"
+                         :placeholder="invoice.number"
+                         @change="$emit('update', { variable_symbol: $event })"/>
+        </div>
         <BModal id="bank_account_no"
                 centered
                 :title="$t('bank_account_modal_title')"
