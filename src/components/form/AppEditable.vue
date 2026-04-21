@@ -60,13 +60,15 @@ export default {
   },
   watch: {
     value() {
-      this.$refs.editable.innerText = this.value;
-      this.tmpVal = this.value;
+      const val = this.value ? this.value.trim() : this.value;
+      this.$refs.editable.innerText = val;
+      this.tmpVal = val;
     },
   },
   mounted() {
-    this.$refs.editable.innerText = this.value;
-    this.tmpVal = this.value;
+    const val = this.value ? this.value.trim() : this.value;
+    this.$refs.editable.innerText = val;
+    this.tmpVal = val;
   },
   methods: {
     onInput(e) {
@@ -79,8 +81,9 @@ export default {
     },
     onFocusOut() {
       this.isFocused = false;
-      if (this.focusInVal !== this.$refs.editable.innerText) {
-        this.$emit('change', this.$refs.editable.innerText);
+      const val = this.$refs.editable.innerText.trim();
+      if (this.focusInVal !== val) {
+        this.$emit('change', val);
       }
     },
     focus() {

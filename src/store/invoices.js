@@ -164,7 +164,7 @@ export default {
           client_county: client.company_county,
           client_country: client.company_country,
           client_email: client.invoice_email,
-          currency: client.currency || rootGetters['teams/team'].currency || 'USD',
+          currency: client.currency || rootGetters['teams/team'].currency || 'CZK',
           bank_name: client.bank_account ? client.bank_account.bank_name : null,
           bank_account_no: client.bank_account ? client.bank_account.account_no : null,
         },
@@ -180,8 +180,8 @@ export default {
           .add(team.invoice_due_days || 14, 'days')
           .format('YYYY-MM-DD'),
         number: generateInvoiceNumber(getters.all),
-        late_fee: team.invoice_late_fee || 0.5,
-        currency: team.currency || 'USD',
+        late_fee: team.invoice_late_fee || '',
+        currency: team.currency || 'CZK',
       };
 
       return dispatch('updateInvoice', {
